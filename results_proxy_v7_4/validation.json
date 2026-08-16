@@ -1,0 +1,443 @@
+{
+  "baseline": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "split_node_legacy": {
+    "source_balance_max_abs": 2.842170943040401e-14,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 1.4779288903810084e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "local_generic": {
+    "source_balance_max_abs": 1.7053025658242404e-13,
+    "collection_balance_max_abs": 4.547473508864641e-13,
+    "split_balance_max_abs": 9.094947017729282e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "local_capture": {
+    "source_balance_max_abs": 1.0658141036401503e-14,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "local_arcs": {
+    "source_balance_max_abs": 9.999999974752427e-07,
+    "collection_balance_max_abs": 3.410605131648481e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "local_ownership": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 4.547473508864641e-13,
+    "split_balance_max_abs": 6.821210263296962e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "demand_low": {
+    "source_balance_max_abs": 5.684341886080802e-14,
+    "collection_balance_max_abs": 5.684341886080802e-14,
+    "split_balance_max_abs": 1.1368683772161603e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "demand_high": {
+    "source_balance_max_abs": 9.094947017729282e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 9.094947017729282e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "spatial_s1": {
+    "source_balance_max_abs": 1.3642420526593924e-12,
+    "collection_balance_max_abs": 7.673861546209082e-12,
+    "split_balance_max_abs": 2.2737367544323206e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "spatial_s2": {
+    "source_balance_max_abs": 1.2505552149377763e-12,
+    "collection_balance_max_abs": 5.210789393228133e-12,
+    "split_balance_max_abs": 5.9117155615240335e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "capture_low": {
+    "source_balance_max_abs": 3.637978807091713e-12,
+    "collection_balance_max_abs": 8.98126018000772e-12,
+    "split_balance_max_abs": 1.4779288903810084e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "capture_high": {
+    "source_balance_max_abs": 1.7621459846850485e-12,
+    "collection_balance_max_abs": 6.821210263296962e-13,
+    "split_balance_max_abs": 1.8189894035458565e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "scale_low_combo": {
+    "source_balance_max_abs": 3.552713678800501e-14,
+    "collection_balance_max_abs": 7.105427357601002e-15,
+    "split_balance_max_abs": 5.684341886080802e-14,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "scale_stress_combo": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 4.092726157978177e-12,
+    "split_balance_max_abs": 9.094947017729282e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "transport_low": {
+    "source_balance_max_abs": 5.684341886080802e-14,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "transport_high": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 4.098031947885557e-13,
+    "split_balance_max_abs": 9.094947017729282e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "transport_double": {
+    "source_balance_max_abs": 4.54036808150704e-12,
+    "collection_balance_max_abs": 4.551505728481326e-12,
+    "split_balance_max_abs": 2.7284841053187847e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "transport_fivefold": {
+    "source_balance_max_abs": 1.7621459846850485e-11,
+    "collection_balance_max_abs": 2.2168933355715126e-12,
+    "split_balance_max_abs": 1.1368683772161603e-11,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "radius_tight": {
+    "source_balance_max_abs": 3.353761712787673e-12,
+    "collection_balance_max_abs": 3.1544865239817078e-12,
+    "split_balance_max_abs": 2.9558577807620168e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "radius_loose": {
+    "source_balance_max_abs": 4.547473508864641e-13,
+    "collection_balance_max_abs": 9.237055564881302e-14,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "road_factor_low": {
+    "source_balance_max_abs": 8.810729923425242e-13,
+    "collection_balance_max_abs": 2.273736754432307e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "road_factor_high": {
+    "source_balance_max_abs": 9.094947017729282e-13,
+    "collection_balance_max_abs": 4.986340685239012e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "organization_self": {
+    "source_balance_max_abs": 9.999999974752427e-07,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 9.094947017729282e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "organization_entrusted": {
+    "source_balance_max_abs": 9.999999974752427e-07,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 2.2737367544323206e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "self_build_cost_low": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "self_build_cost_high": {
+    "source_balance_max_abs": 5.684341886080801e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-12,
+    "split_balance_max_abs": 2.0463630789890885e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "collection_capacity_low": {
+    "source_balance_max_abs": 1.1368683772161603e-13,
+    "collection_balance_max_abs": 1.3895057943753071e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "collection_capacity_high": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "collection_minimum_zero": {
+    "source_balance_max_abs": 7.958078640513122e-13,
+    "collection_balance_max_abs": 1.1368683772161603e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "collection_minimum_100": {
+    "source_balance_max_abs": 9.999999974752427e-07,
+    "collection_balance_max_abs": 4.426704141700311e-13,
+    "split_balance_max_abs": 2.2737367544323206e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "collection_minimum_500": {
+    "source_balance_max_abs": 2.751221472863108e-11,
+    "collection_balance_max_abs": 3.9619862945983186e-11,
+    "split_balance_max_abs": 3.387867764104158e-11,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "partner_capacity_low": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "partner_capacity_high": {
+    "source_balance_max_abs": 1.7053025658242404e-12,
+    "collection_balance_max_abs": 1.3569659738010975e-12,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "partner_enhanced": {
+    "source_balance_max_abs": 0.0,
+    "collection_balance_max_abs": 1.8189894035458553e-12,
+    "split_balance_max_abs": 2.2737367544323206e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "processing_cost_low": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "processing_cost_high": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "reuse_low": {
+    "source_balance_max_abs": 1.4210854715202004e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 1.1368683772161603e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "reuse_high": {
+    "source_balance_max_abs": 1.1368683772161603e-13,
+    "collection_balance_max_abs": 1.479124724092154e-12,
+    "split_balance_max_abs": 1.8189894035458565e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "emergency_cost_50": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "emergency_cost_75": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "emergency_cost_125": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_free": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 4.547473508864641e-13,
+    "split_balance_max_abs": 6.821210263296962e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_reduced": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 4.547473508864641e-13,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_fixed_om_low": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_fixed_om_high": {
+    "source_balance_max_abs": 2.2737367544323206e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 0.0,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "facility_count_min_relaxed": {
+    "source_balance_max_abs": 2.1600499167107046e-12,
+    "collection_balance_max_abs": 1.9245249747070033e-11,
+    "split_balance_max_abs": 1.5916157281026244e-11,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_stress_no_expand": {
+    "source_balance_max_abs": 4.547473508864641e-13,
+    "collection_balance_max_abs": 2.2737367544323206e-13,
+    "split_balance_max_abs": 1.8189894035458565e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_stress_expand": {
+    "source_balance_max_abs": 0.0,
+    "collection_balance_max_abs": 4.547473508864641e-13,
+    "split_balance_max_abs": 1.8189894035458565e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  },
+  "p01_stress_expand_full": {
+    "source_balance_max_abs": 0.0,
+    "collection_balance_max_abs": 1.3642420526593924e-12,
+    "split_balance_max_abs": 1.8189894035458565e-12,
+    "objective_reconciliation_abs": 0.0,
+    "emergency_within_cap": true,
+    "ordinary_unmet_tons": 0.0,
+    "valid": true
+  }
+}

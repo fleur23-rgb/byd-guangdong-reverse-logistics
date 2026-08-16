@@ -1,0 +1,246 @@
+scenarios:
+  baseline: {}
+
+  proxy_baseline:
+    distance_source: proxy
+
+  split_node_legacy:
+    model:
+      reuse_split_scope: node
+
+  local_generic:
+    demand_scale: 1.0
+    capture_rate: 1.0
+    collection:
+      mode_policy: self_only
+    p01:
+      locked: false
+    model:
+      use_service_radius: false
+
+  local_capture:
+    demand_scale: 1.0
+    capture_rate: 0.40
+    collection:
+      mode_policy: self_only
+    p01:
+      locked: false
+    model:
+      use_service_radius: false
+
+  local_arcs:
+    demand_scale: 1.0
+    capture_rate: 0.40
+    collection:
+      mode_policy: self_only
+    p01:
+      locked: false
+
+  local_ownership:
+    demand_scale: 1.0
+    capture_rate: 0.40
+    collection:
+      mode_policy: mixed
+    p01:
+      locked: false
+
+  demand_low:
+    demand_scale: 0.408678422014091
+
+  demand_high:
+    demand_scale: 2.6454445564218005
+
+  spatial_s1:
+    spatial_weight_scheme: s1
+
+  spatial_s2:
+    spatial_weight_scheme: s2
+
+  capture_low:
+    capture_rate: 0.20
+
+  capture_high:
+    capture_rate: 0.60
+
+  scale_low_combo:
+    demand_scale: 0.408678422014091
+    capture_rate: 0.20
+    facility_count:
+      collection_min: 2
+    model:
+      use_minimum_throughput: false
+
+  scale_stress_combo:
+    demand_scale: 2.6454445564218005
+    capture_rate: 0.60
+
+  transport_low:
+    transport_cost:
+      source_collection: 0.34
+      collection_echelon: 0.34
+      collection_recycling: 0.34
+
+  transport_high:
+    transport_cost:
+      source_collection: 0.64
+      collection_echelon: 0.64
+      collection_recycling: 0.64
+
+  transport_double:
+    transport_cost:
+      source_collection: 0.98
+      collection_echelon: 0.98
+      collection_recycling: 0.98
+
+  transport_fivefold:
+    transport_cost:
+      source_collection: 2.45
+      collection_echelon: 2.45
+      collection_recycling: 2.45
+
+  radius_tight:
+    service_radius:
+      source_collection: 100
+      collection_echelon: 200
+      collection_recycling: 300
+
+  radius_loose:
+    service_radius:
+      source_collection: 200
+      collection_echelon: 400
+      collection_recycling: 500
+
+  road_factor_low:
+    distance_source: proxy
+    road_distance_factor: 0.9166666666666666
+
+  road_factor_high:
+    distance_source: proxy
+    road_distance_factor: 1.0833333333333333
+
+  organization_self:
+    collection:
+      mode_policy: self_only
+
+  organization_entrusted:
+    collection:
+      mode_policy: entrusted_only
+
+  self_build_cost_low:
+    collection:
+      self_fixed_factor: 0.3954527878
+      self_unit_factor: 0.50
+
+  self_build_cost_high:
+    collection:
+      self_fixed_factor: 2.0894814109
+      self_unit_factor: 1.50
+
+  collection_capacity_low:
+    collection:
+      capacity_factor: 0.3333333333333333
+
+  collection_capacity_high:
+    collection:
+      capacity_factor: 1.6666666666666667
+
+  collection_minimum_zero:
+    collection:
+      minimum_throughput_tons: 0
+
+  collection_minimum_100:
+    collection:
+      minimum_throughput_tons: 100
+
+  collection_minimum_500:
+    collection:
+      minimum_throughput_tons: 500
+
+  partner_capacity_low:
+    partner:
+      capacity_share: 0.30
+
+  partner_capacity_high:
+    partner:
+      capacity_share: 0.80
+
+  partner_enhanced:
+    partner:
+      capacity_share: 0.80
+      fixed_factor: 0.75
+
+  processing_cost_low:
+    partner:
+      echelon_unit_factor: 0.6363636364
+      recycling_unit_factor: 0.80
+    p01:
+      unit_factor: 0.80
+
+  processing_cost_high:
+    partner:
+      echelon_unit_factor: 1.4545454545
+      recycling_unit_factor: 1.20
+    p01:
+      unit_factor: 1.20
+
+  reuse_low:
+    reuse_share: 0.20
+
+  reuse_high:
+    reuse_share: 0.50
+
+  emergency_cost_50:
+    emergency:
+      unit_cost: 50000
+
+  emergency_cost_75:
+    emergency:
+      unit_cost: 75000
+
+  emergency_cost_125:
+    emergency:
+      unit_cost: 125000
+
+  p01_free:
+    p01:
+      locked: false
+
+  p01_reduced:
+    p01:
+      availability: 0.20
+
+  p01_fixed_om_low:
+    p01:
+      fixed_factor: 0.50
+
+  p01_fixed_om_high:
+    p01:
+      fixed_factor: 1.50
+
+  facility_count_min_relaxed:
+    facility_count:
+      collection_min: 0
+      echelon_min: 0
+      recycling_min: 0
+
+  p01_stress_no_expand:
+    demand_scale: 2.6454445564218005
+    capture_rate: 0.60
+    p01:
+      availability: 0.20
+
+  p01_stress_expand:
+    demand_scale: 2.6454445564218005
+    capture_rate: 0.60
+    p01:
+      availability: 0.20
+      expansion_enabled: true
+      expansion_cost_factor: 0.10
+
+  p01_stress_expand_full:
+    demand_scale: 2.6454445564218005
+    capture_rate: 0.60
+    p01:
+      availability: 0.20
+      expansion_enabled: true
+      expansion_cost_factor: 1.00

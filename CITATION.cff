@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this model, please cite the accompanying thesis."
+title: "BYD Guangdong Reverse Logistics Network Model"
+type: software
+version: 0.1.0
+date-released: 2026-07-25
+authors:
+  - family-names: "Thesis author"
+license: MIT

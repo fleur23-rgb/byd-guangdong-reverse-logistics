@@ -1,0 +1,64 @@
+name: baseline
+description: 2025 medium retirement estimate, 40% capture rate, mixed collection organization
+
+demand_scale: 1.0
+capture_rate: 0.40
+reuse_share: 0.35
+spatial_weight_scheme: s3
+distance_source: osrm
+road_distance_factor: 1.0
+
+transport_cost:
+  source_collection: 0.49
+  collection_echelon: 0.49
+  collection_recycling: 0.49
+
+service_radius:
+  source_collection: 150
+  collection_echelon: 300
+  collection_recycling: 400
+
+facility_count:
+  collection_min: 3
+  collection_max: 10
+  echelon_min: 1
+  echelon_max: 6
+  recycling_min: 1
+  recycling_max: 3
+
+collection:
+  mode_policy: mixed
+  capacity_factor: 1.0
+  minimum_throughput_tons: 300
+  self_fixed_factor: 1.0
+  self_unit_factor: 1.0
+  entrusted_fixed_factor: 1.0
+  entrusted_unit_factor: 1.0
+
+partner:
+  capacity_share: 0.50
+  minimum_factor: 1.0
+  fixed_factor: 1.0
+  unit_factor: 1.0
+  echelon_unit_factor: 1.0
+  recycling_unit_factor: 1.0
+
+p01:
+  locked: true
+  availability: 0.80
+  fixed_factor: 1.0
+  unit_factor: 1.0
+  expansion_enabled: false
+  expansion_cost_factor: 1.0
+
+emergency:
+  unit_cost: 100000
+  max_share: 0.20
+
+model:
+  use_service_radius: true
+  use_minimum_throughput: true
+  reuse_split_scope: network
+  objective_mode: lexicographic
+  mip_gap: 0.001
+  time_limit_seconds: 300

@@ -1,0 +1,43 @@
+﻿option_id,collection_id,name,city,mode,lon,lat,capacity_tons,min_throughput_tons,fixed_cost_yuan_per_year,unit_processing_cost_yuan_per_ton,parameter_quality,notes
+C01_E,C01,广州虚拟回收/检测中心,广州,entrusted,113.2589581,23.1288429,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C01_S,C01,广州虚拟回收/检测中心,广州,self_build,113.2589581,23.1288429,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C02_E,C02,深圳虚拟回收/检测中心,深圳,entrusted,114.0545429,22.5445741,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C02_S,C02,深圳虚拟回收/检测中心,深圳,self_build,114.0545429,22.5445741,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C03_E,C03,珠海虚拟回收/检测中心,珠海,entrusted,113.5721327,22.273734,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C03_S,C03,珠海虚拟回收/检测中心,珠海,self_build,113.5721327,22.273734,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C04_E,C04,汕头虚拟回收/检测中心,汕头,entrusted,116.6775856,23.3563921,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C04_S,C04,汕头虚拟回收/检测中心,汕头,self_build,116.6775856,23.3563921,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C05_E,C05,佛山虚拟回收/检测中心,佛山,entrusted,113.1159558,23.0239788,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C05_S,C05,佛山虚拟回收/检测中心,佛山,self_build,113.1159558,23.0239788,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C06_E,C06,韶关虚拟回收/检测中心,韶关,entrusted,113.8155263,24.8309489,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C06_S,C06,韶关虚拟回收/检测中心,韶关,self_build,113.8155263,24.8309489,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C07_E,C07,河源虚拟回收/检测中心,河源,entrusted,115.0577538,24.1014769,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C07_S,C07,河源虚拟回收/检测中心,河源,self_build,115.0577538,24.1014769,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C08_E,C08,梅州虚拟回收/检测中心,梅州,entrusted,116.1171428,24.2918414,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C08_S,C08,梅州虚拟回收/检测中心,梅州,self_build,116.1171428,24.2918414,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C09_E,C09,惠州虚拟回收/检测中心,惠州,entrusted,114.4127007,23.1125153,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C09_S,C09,惠州虚拟回收/检测中心,惠州,self_build,114.4127007,23.1125153,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C10_E,C10,汕尾虚拟回收/检测中心,汕尾,entrusted,115.5099937,23.0123639,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C10_S,C10,汕尾虚拟回收/检测中心,汕尾,self_build,115.5099937,23.0123639,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C11_E,C11,东莞虚拟回收/检测中心,东莞,entrusted,113.7452332,23.0183568,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C11_S,C11,东莞虚拟回收/检测中心,东莞,self_build,113.7452332,23.0183568,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C12_E,C12,中山虚拟回收/检测中心,中山,entrusted,113.3872302,22.5197073,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C12_S,C12,中山虚拟回收/检测中心,中山,self_build,113.3872302,22.5197073,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C13_E,C13,江门虚拟回收/检测中心,江门,entrusted,113.0761073,22.5816619,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C13_S,C13,江门虚拟回收/检测中心,江门,self_build,113.0761073,22.5816619,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C14_E,C14,阳江虚拟回收/检测中心,阳江,entrusted,111.7831393,22.0958223,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C14_S,C14,阳江虚拟回收/检测中心,阳江,self_build,111.7831393,22.0958223,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C15_E,C15,湛江虚拟回收/检测中心,湛江,entrusted,110.3548318,21.2737079,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C15_S,C15,湛江虚拟回收/检测中心,湛江,self_build,110.3548318,21.2737079,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C16_E,C16,茂名虚拟回收/检测中心,茂名,entrusted,110.9209511,21.6656961,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C16_S,C16,茂名虚拟回收/检测中心,茂名,self_build,110.9209511,21.6656961,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C17_E,C17,肇庆虚拟回收/检测中心,肇庆,entrusted,112.4603629,23.0501661,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C17_S,C17,肇庆虚拟回收/检测中心,肇庆,self_build,112.4603629,23.0501661,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C18_E,C18,清远虚拟回收/检测中心,清远,entrusted,113.0505994,23.6832984,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C18_S,C18,清远虚拟回收/检测中心,清远,self_build,113.0505994,23.6832984,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C19_E,C19,潮州虚拟回收/检测中心,潮州,entrusted,116.6204223,23.656593,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C19_S,C19,潮州虚拟回收/检测中心,潮州,self_build,116.6204223,23.656593,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C20_E,C20,揭阳虚拟回收/检测中心,揭阳,entrusted,116.3680354,23.553156,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C20_S,C20,揭阳虚拟回收/检测中心,揭阳,self_build,116.3680354,23.553156,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario
+C21_E,C21,云浮虚拟回收/检测中心,云浮,entrusted,111.8078586,22.8546663,3000,300,170126.5398273678,1200.0,D-contract scenario,Contract fixed fee is 30% of self-build fixed cost; unit fee is scenario value
+C21_S,C21,云浮虚拟回收/检测中心,云浮,self_build,111.8078586,22.8546663,3000,300,567088.466091226,800.0,A-名单或D-虚拟节点；C/D-成本容量,Workbook annualized self-build scenario

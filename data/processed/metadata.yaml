@@ -1,0 +1,17 @@
+source_workbook: 广东省动力电池闭环供应链论文数据集_V2.1.xlsx
+base_retired_battery_tons: 8791.46
+low_retired_battery_tons: 3592.88
+high_retired_battery_tons: 23257.32
+region_count: 21
+collection_location_count: 21
+processing_role_count: 24
+echelon_role_count: 17
+recycling_role_count: 7
+arc_count: 945
+distance_columns:
+- proxy_km
+- osrm_km
+osrm_duration_column: osrm_duration_min
+osrm_query_date: '2026-08-15'
+data_scope: Public-data estimates, proxies, literature calibration, and scenarios
+capture_rate_note: 20%, 40%, and 60% are D-level scenario assumptions, not BYD facts

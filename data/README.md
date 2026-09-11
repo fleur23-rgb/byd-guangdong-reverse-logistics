@@ -1,12 +1,8 @@
-# Data
+# 数据说明
 
-`raw/` contains the versioned V2.1 research case workbook. `processed/` is
-generated from that workbook with `scripts/build_inputs.py` and is committed so
-the optimization can run without Excel preprocessing.
+`raw/` 保存带版本号的 V2.1 论文案例工作簿；`processed/` 是通过
+`scripts/build_inputs.py` 规范化后提交的模型输入。直接运行优化模型时无需再次处理 Excel。
 
-The data are public-data estimates, spatial proxies, literature-calibrated
-parameters, and scenario assumptions. They are not BYD operational records.
-Facility coordinates use city-level proxies unless otherwise stated. The V2.1
-arc table retains both the Haversine-derived proxy layer and the OSRM
-`driving/car` road-distance layer. Official scenarios use OSRM; the proxy layer
-is retained for comparison and diagnostics.
+仓库数据由公开资料估计、空间代理、文献校准参数和情景假设构成，不是比亚迪内部经营台账。除特别说明外，设施坐标采用地市级代理点；弧表同时保留基于 Haversine 公式的代理距离和 OSRM `driving/car` 路网距离。论文正式情景使用 OSRM 距离，代理距离仅用于对照和诊断。
+
+使用数据或地图服务时，请保留原始来源、抓取日期和相应引用，并遵守第三方服务的许可条款。

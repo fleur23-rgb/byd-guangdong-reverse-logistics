@@ -25,7 +25,7 @@ def main() -> None:
         "processing": records(RESULTS / "scenario_processing.csv"),
         "flows": records(RESULTS / "scenario_flows.csv"),
         "regions": records(PROCESSED / "regions.csv"),
-        "generated_from": "Public-data research estimates and scenario assumptions; not BYD operational records.",
+        "generated_from": "Public-data research estimates and scenario assumptions; Guangdong is the bundled demonstration case.",
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(payload, ensure_ascii=False), encoding="utf-8")

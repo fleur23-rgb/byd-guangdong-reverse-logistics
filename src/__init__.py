@@ -1,1 +1,1 @@
-"""BYD Guangdong reverse logistics model."""
+"""Configurable reverse-logistics network model for retired traction batteries."""

@@ -30,10 +30,9 @@ def save_results(
     figures = output_dir / "figures"
     figures.mkdir(parents=True, exist_ok=True)
 
-    for filename in ("scenario_summary.csv", "scenario_results.csv"):
-        summary.to_csv(
-            output_dir / filename, index=False, encoding="utf-8-sig"
-        )
+    summary.to_csv(
+        output_dir / "scenario_summary.csv", index=False, encoding="utf-8-sig"
+    )
     pd.concat(
         [result.costs for result in results.values()], ignore_index=True
     ).to_csv(output_dir / "scenario_costs.csv", index=False, encoding="utf-8-sig")

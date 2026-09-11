@@ -166,7 +166,7 @@ def build_model(
         for level, capacity in expansion_capacity.items()
     }
 
-    m = pyo.ConcreteModel(name=f"BYD_GD_{scenario['name']}")
+    m = pyo.ConcreteModel(name=f"CN_BATTERY_RL_{scenario['name']}")
     m.I = pyo.Set(initialize=region_ids)
     m.C = pyo.Set(initialize=collection_ids)
     m.O = pyo.Set(initialize=option_ids)

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-message: "如使用本模型，请同时引用配套论文。"
-title: "比亚迪广东退役动力电池逆向物流网络模型"
+message: "如使用本模型，请引用本软件及相应案例研究。"
+title: "全国退役动力电池逆向物流网络优化模型（广东示范情景）"
 type: software
 version: 0.1.0
 date-released: 2026-07-25

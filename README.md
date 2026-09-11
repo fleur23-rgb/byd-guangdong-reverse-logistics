@@ -1,54 +1,50 @@
-# BYD Guangdong Reverse Logistics
+# 比亚迪广东退役动力电池逆向物流网络研究
 
-This repository contains a public-data-driven mixed-integer linear programming
-model for a BYD Guangdong retired traction-battery reverse logistics case.
-It follows RELOG's general network-design idea while implementing Chinese
-business rules in Python, Pyomo, and HiGHS.
+本仓库对应论文《企业主导型退役动力电池逆向物流网络优化研究——比亚迪广东案例》，提供可复核的混合整数线性规划模型、案例数据、论文图件、模型重跑结果和中文论文稿件。
 
-## Scope
+> 说明：仓库中的数据包含公开资料估计、空间代理、文献校准参数和情景假设，不是比亚迪的内部经营台账，也不构成企业实际盈利或降本承诺。
 
-- 2025 single-period case
-- 21 Guangdong city service-access and source-aggregation regions
-- Self-built or entrusted regional collection, testing, and consolidation options
-- External echelon-use and recycling partners
-- Existing Shanwei P01 recycling facility
-- Aggregate exogenous route split for normal-network flows, with a node-level diagnostic alternative
-- Shared capacity across functional nodes belonging to the same physical firm
-- Lexicographic optimization: minimize emergency outsourcing first, then cost
-- Service radii, allowed arcs, fixed scenario capacity, and minimum throughput
+## 研究内容
 
-The included values are public-data estimates, spatial proxies, literature
-calibrations, and scenario assumptions. They are not BYD operational records.
+- 2025 年单期广东退役动力电池逆向物流网络案例；
+- 21 个广东地市服务接入与来源汇聚区域；
+- 自建或委托区域回收、检测与集散中心；
+- 梯次利用、再生利用及现有 P01 再生设施；
+- 基于 OSRM `driving/car` 路网距离的正式情景，以及代理距离诊断情景；
+- 共享实体容量约束、服务半径、候选运输弧、最低处理量和扩容情景；
+- 先最小化应急外包、再最小化年度成本的词典序两阶段优化。
 
-## Reproduce
+## 目录
 
-The repository contains the processed V2.1 case inputs, so the original Excel
-workbook is not required for ordinary reproduction.
+| 路径 | 内容 |
+| --- | --- |
+| `src/` | Pyomo 模型、求解、情景和校验代码 |
+| `scripts/` | 输入构建、基准运行、批量情景和结果导出脚本 |
+| `configs/` | 基准参数与情景配置 |
+| `data/` | V2.1 工作簿及规范化模型输入 |
+| `results/` | 模型输出、CSV 结果、校验文件和英文文件名图件 |
+| `web/` | 中文交互式参数与结果展示页面源码 |
+| `论文资料/01_论文定稿/` | V8.1 内容修订稿、V8.2 学术润色稿及修改说明 |
+| `论文资料/02_案例数据集/` | 论文使用的 V2.1 案例工作簿 |
+| `论文资料/04_模型重跑结果/` | 独立重构、锁定环境复现和数值一致性审查材料 |
+| `论文资料/05_论文图件/` | 论文正文及附录使用的中文图件 |
 
-### macOS and Linux
+历史 Word 版本、内部修订工作包和第三方参考论文 PDF 未随仓库公开发布；需要追溯时请以论文中的版本说明和引用信息为准。
 
-Create a Python 3.11+ virtual environment and install the pinned dependencies:
+## Python 模型复现
+
+要求 Python 3.11 或更高版本。建议在 macOS 或 Linux 中执行：
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
 python -m pip install -r requirements-lock.txt
-```
-
-Run the full scenario matrix from the committed processed inputs:
-
-```bash
 python scripts/reproduce_results.py
-```
-
-Run tests:
-
-```bash
 python -m pytest -q
 ```
 
-### Windows
+Windows PowerShell：
 
 ```powershell
 py -3.11 -m venv .venv
@@ -59,34 +55,31 @@ python scripts/reproduce_results.py
 python -m pytest -q
 ```
 
-### Rebuild inputs from the workbook
-
-To rebuild `data/processed/` from the research workbook, pass its location
-explicitly. Quoting the path is recommended when it contains spaces or Chinese
-characters:
+如需从论文工作簿重新生成规范化输入：
 
 ```bash
 python scripts/reproduce_results.py --workbook "/path/to/广东省动力电池闭环供应链论文数据集_V2.1.xlsx"
 ```
 
-Alternatively, place the workbook at
-`data/raw/广东省动力电池闭环供应链论文数据集_V2.1.xlsx` and run:
+正式情景使用 OSRM 路网距离；代理距离结果只用于诊断和敏感性比较。输出默认写入 `results/`。
 
-```bash
-python scripts/build_inputs.py
-python scripts/reproduce_results.py
-```
+## 复核状态
 
-Outputs are written to `results/`. The baseline uses OSRM `driving/car` road
-distances; the proxy-distance baseline is retained as a diagnostic comparison.
+- 49 组正式 OSRM 情景及 1 组代理距离对照情景；
+- 23 项自动化测试，覆盖输入、流量平衡、候选弧、设施容量、共享实体容量、距离、成本和应急外包等约束；
+- 论文资料中的独立模型重构与锁定环境复现记录可在 `论文资料/04_模型重跑结果/` 查阅；
+- V2.1 工作簿 SHA256：`D4FF41DEF8B868146A3696821875EDBEDFC88B5145D4FD67D37013E2AF3137F`。
 
-## Current verified release
+复现结果可能因操作系统、求解器版本和浮点容差出现极小差异；应以校验文件记录的状态、间隙和容差说明为准。
 
-- 49 official OSRM scenarios plus 1 proxy-distance comparison scenario
-- 23 automated tests covering inputs, flow balance, route split, allowed arcs,
-  facility capacity, shared physical-firm capacity, distance handling, costs,
-  emergency outsourcing, and proxy/OSRM consistency
-- Python, Pyomo, and the HiGHS MILP solver through `highspy`
+## 论文文件
 
-The values are research estimates and scenario assumptions, not BYD operational
-records. See `data/README.md` for the data scope.
+当前推荐阅读的版本为：
+
+`论文资料/01_论文定稿/企业主导型退役动力电池逆向物流网络优化研究_比亚迪广东案例_V8.2_学术润色稿.docx`
+
+同目录中的 V8.1 稿件、全文修改对照说明和内容审查建议用于版本追踪。论文图件采用中文文件名，便于与正文图号对应。
+
+## 引用与使用
+
+如使用本仓库的模型或数据，请同时引用论文及本仓库的 `CITATION.cff`。本仓库未对论文资料另行授予超出原文件权利范围的许可；使用第三方数据、地图服务和文献时，请遵守相应来源的许可和引用要求。

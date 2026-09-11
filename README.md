@@ -2,7 +2,7 @@
 
 一个面向中国不同省份、城市群及跨区域场景的退役动力电池逆向物流网络规划框架，使用 Python、Pyomo 和 HiGHS 构建混合整数线性规划（MILP）模型。仓库内置“比亚迪广东案例”作为首个完整的数据示范与复现情景，但广东不是模型的适用边界。
 
-[在线使用可视化工具](https://fleur23-rgb.github.io/byd-guangdong-reverse-logistics/) · [查看广东示范数据](data/README.md) · [查看情景结果](results/scenario_summary.csv)
+[在线使用可视化工具](https://fleur23-rgb.github.io/china-ev-battery-reverse-logistics/) · [查看广东示范数据](data/README.md) · [查看情景结果](results/scenario_summary.csv)
 
 > 项目定位：全国通用的是网络结构、决策变量、约束体系、成本核算和数据接口；仓库当前完成实证校准与结果验证的是广东情景。模型不包含全国各地区的现成实测数据库，应用到其他地区时需要替换当地数据。
 
@@ -21,7 +21,7 @@
 
 ## 为什么仓库名里有 BYD 和 Guangdong
 
-仓库最初围绕“比亚迪广东退役动力电池回收案例”建立，因此保留了 `byd-guangdong-reverse-logistics` 这一地址，现有数据文件也以广东案例为主。随着模型结构完善，项目目标已经扩展为全国可配置框架：
+仓库最初围绕“比亚迪广东退役动力电池回收案例”建立，现已更名为 `china-ev-battery-reverse-logistics`，以体现全国可配置框架的定位。现有数据文件仍以广东案例为主：
 
 - **通用层**：来源节点、候选中心、后端设施、运输弧、容量、成本、服务半径、分流和应急外包逻辑；
 - **案例层**：广东 21 市、比亚迪业务背景、汕尾 P01 设施及广东情景参数；
@@ -160,7 +160,7 @@ python scripts/reproduce_results.py --workbook "/path/to/案例数据集.xlsx"
 
 ## 可视化网站
 
-在线地址：<https://fleur23-rgb.github.io/byd-guangdong-reverse-logistics/>
+在线地址：<https://fleur23-rgb.github.io/china-ev-battery-reverse-logistics/>
 
 网站默认提供“全国空白模板”，用户可以填写任意地区的退役规模、中心能力、运输距离和成本参数；也可以载入“广东省·论文参考案例”作为示例。页面会即时展示建议节点数量、能力缺口、应急外包比例和成本构成。
 

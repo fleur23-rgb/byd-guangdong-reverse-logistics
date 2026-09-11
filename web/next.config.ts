@@ -4,7 +4,7 @@ const isGitHubPages = process.env.GITHUB_PAGES === 'true';
 
 const nextConfig: NextConfig = {
   output: isGitHubPages ? 'export' : undefined,
-  assetPrefix: isGitHubPages ? '/byd-guangdong-reverse-logistics' : undefined,
+  assetPrefix: isGitHubPages ? '/china-ev-battery-reverse-logistics' : undefined,
   trailingSlash: isGitHubPages,
 };
 

@@ -1,27 +1,27 @@
 {
-  "_framework-CowOhM6b.js": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/framework-CowOhM6b.js",
+  "_framework-D8aRMFzZ.js": {
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/framework-D8aRMFzZ.js",
     "name": "framework",
     "imports": [
-      "_rolldown-runtime-DgSNYBCs.js"
+      "_rolldown-runtime-BCAFee4s.js"
     ]
   },
-  "_rolldown-runtime-DgSNYBCs.js": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/rolldown-runtime-DgSNYBCs.js",
+  "_rolldown-runtime-BCAFee4s.js": {
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/rolldown-runtime-BCAFee4s.js",
     "name": "rolldown-runtime"
   },
   "app/page.tsx": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/page-C-AQpvwv.js",
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/page-Dbv43s-N.js",
     "name": "page",
     "src": "app/page.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-DgSNYBCs.js",
-      "_framework-CowOhM6b.js"
+      "_rolldown-runtime-BCAFee4s.js",
+      "_framework-D8aRMFzZ.js"
     ]
   },
   "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/app-route-prefetch-policy-CLrhtJRK.js",
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/app-route-prefetch-policy-C52qU5fR.js",
     "name": "app-route-prefetch-policy",
     "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
     "isDynamicEntry": true,
@@ -30,34 +30,34 @@
     ]
   },
   "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/layout-segment-context-vR6RjfsM.js",
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/layout-segment-context-D3GsSsVw.js",
     "name": "layout-segment-context",
     "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/layout-segment-context.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-DgSNYBCs.js",
+      "_rolldown-runtime-BCAFee4s.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CowOhM6b.js"
+      "_framework-D8aRMFzZ.js"
     ]
   },
   "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/streamed-icons.js": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/streamed-icons-CR0XUsRC.js",
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/streamed-icons-nEY9w8x1.js",
     "name": "streamed-icons",
     "src": "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/streamed-icons.js",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-DgSNYBCs.js",
-      "_framework-CowOhM6b.js"
+      "_rolldown-runtime-BCAFee4s.js",
+      "_framework-D8aRMFzZ.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "byd-guangdong-reverse-logistics/_next/static/chunks/index-D7HLXa61.js",
+    "file": "china-ev-battery-reverse-logistics/_next/static/chunks/index-D6XfTEWF.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
     "imports": [
-      "_rolldown-runtime-DgSNYBCs.js",
-      "_framework-CowOhM6b.js"
+      "_rolldown-runtime-BCAFee4s.js",
+      "_framework-D8aRMFzZ.js"
     ],
     "dynamicImports": [
       "node_modules/.pnpm/vinext@1.0.0-beta.5_@vitejs+plugin-react@6.0.2_vite@8.0.13_@types+node@22.19.19_esbuild_b79f96eac0df69dff29a3f5c3c8024f5/node_modules/vinext/dist/shims/internal/app-route-prefetch-policy.js",
